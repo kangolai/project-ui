@@ -1,0 +1,157 @@
+@import url(https://rsms.me/inter/inter.css);
+root {
+    font-family: 'Inter', sans-serif;
+}
+@supports (font-variation-settings: normal) {
+    :root {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+body {
+    font-family: Inter !important;
+}
+h3 {
+    font-size: 14px;
+    font-weight: 400;
+}
+.text-upercase {
+    text-transform: uppercase;
+}
+input[type='text'],
+input[type='password'],
+input[type='url'],
+input[type='tel'],
+input[type='search'],
+input[type='number'],
+input[type='datetime'],
+input[type='email'] {
+    border-radius: 10px;
+}
+
+html {
+    -webkit-text-size-adjust: none;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.txt_fff {
+    color: #fff;
+}
+.txt_999 {
+    color: #999;
+}
+.txt_666 {
+    color: #666;
+}
+.txt_333 {
+    color: #333;
+}
+a.txt_color_1,
+.txt_color_1 {
+    color: #326e51;
+}
+a.txt_color_2,
+.txt_color_2 {
+    color: #ff6600;
+}
+.txt_color_3 {
+    color: #2d314e;
+}
+.txt_color_coupon {
+    color: #134b88;
+}
+.txt_one_line {
+    white-space: nowrap;
+}
+.mage-error,
+.txt_error {
+    color: red;
+    margin-top: 3px;
+}
+.txt_12 {
+    font-size: 12px;
+}
+.txt_14 {
+    font-size: 14px;
+}
+.txt_13 {
+    font-size: 13px;
+}
+.txt_15 {
+    font-size: 15px;
+}
+.txt_16 {
+    font-size: 16px;
+}
+.txt_18 {
+    font-size: 18px;
+}
+.txt_21 {
+    font-size: 21px;
+}
+.main_section,
+.relative {
+    position: relative;
+}
+.space_top_5 {
+    margin-top: 5px;
+}
+.space_top_10 {
+    margin-top: 10px;
+}
+.space_bottom_3 {
+    margin-bottom: 3px;
+}
+.space_bottom_5 {
+    margin-bottom: 5px;
+}
+.space_bottom_10 {
+    margin-bottom: 10px;
+}
+.space_bottom_15 {
+    margin-bottom: 15px;
+}
+.space_bottom_20 {
+    margin-bottom: 20px;
+}
+.space_bottom_30 {
+    margin-bottom: 30px;
+}
+.space_bottom_50 {
+    margin-bottom: 50px;
+}
+a.btn_site_1:hover,
+a.btn_site_1,
+.btn_site_1:hover,
+.btn_site_1 {
+    background: #326e51;
+    border-radius: 20px;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+a.btn_site_1:hover,
+.btn_site_1:hover {
+    background: #4b8c6c;
+}
+button.btn_site_2,
+button.btn_site_2:hover,
+a.btn_site_2:hover,
+a.btn_site_2,
+.btn_site_2:hover,
+.btn_site_2 {
+    background: #ff6600;
+    border: 1px solid #ff6600;
+    border-radius: 20px;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
